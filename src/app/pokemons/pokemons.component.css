@@ -1,0 +1,39 @@
+
+.tarjetas-container {
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+
+  .tarjeta {
+    width: 20%;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border: 3px solid rgba(0, 0, 0, 0.675);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.675);
+  }
+  
+
+  .tarjeta img {
+    max-width: 50%;
+    height: auto;
+  }
+  
+
+  .tarjeta h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+
+  .tarjeta p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  

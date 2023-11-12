@@ -1,0 +1,11 @@
+<div class="tarjetas-container">
+    <div class="tarjeta" *ngFor="let tarjeta of tarjetas">
+      <img [src]="tarjeta.imagen" alt="Imagen de {{ tarjeta.nombre }}">
+      <h3>{{ tarjeta.nombre }}</h3>
+      <p>Categoría: {{ tarjeta.categoria }}</p>
+      <p>Tipo: {{ tarjeta.tipo }}</p>
+      <p>Talla: {{ tarjeta.talla }} m</p>
+      <p *ngIf="tarjeta.peso >= 7">Es un pokemon pesado</p>
+      <p>Peso: {{ tarjeta.peso }} kg</p>
+    </div>
+  </div>
